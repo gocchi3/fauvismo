@@ -5,7 +5,7 @@ body {
 
 
   .navbar {
-background-color: transparent !important; /* Agregar !important para asegurar que la regla se aplique */
+background-color: transparent !important; 
 }
 .navbar-toggler{
   background-color: #D86083;
@@ -44,7 +44,7 @@ color: #F8E71C;
 .section {
   position: relative;
   overflow: hidden;
-  z-index: 2; /* Asegura que las secciones estén por debajo del efecto de ondas */
+  z-index: 2; 
 }
 .section1 {
   background-image: url("resources/fondoindex.jpg");
@@ -78,29 +78,29 @@ font-size: 8vw;
 .custom-h1 {
   font-family: 'Rubik One', sans-serif;
   background-color: #D86083;
-  font-size: 15vw; /* Hace que el tamaño sea responsive */
+  font-size: 15vw; 
   width: 100%;
   margin: 0;
 }
 
 .section2 {
   background-color: #1251C1;
-  height: auto;/* Cambiado a 100vh para ocupar toda la pantalla */
+  height: auto;
   color: #F9F3EB;
 }
 .section3 {
   background-color: #D86083;
-  height: auto; /* Cambiado a 100vh para ocupar toda la pantalla */
+  height: auto; 
 }
 .section4 {
   margin-top: 10%;
 background-color: #1251C1;
-height: auto; /* Puedes ajustar este valor según sea necesario */
+height: auto;
 color: #F9F3EB;
 }
 .section5 {
   background-color: #D86083;
-  height: auto; /* Puedes ajustar este valor según sea necesario */
+  height: auto; 
   color: #1251C1;
   }
 
@@ -614,21 +614,8 @@ height: auto;
 }
 
 
-/* 
-.fade:not(.show) {
-    opacity: 100;
-}
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
 
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-} */
 
-/* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .anterior, .siguiente,.text {font-size: 11px}
 }
