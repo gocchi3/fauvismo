@@ -492,6 +492,7 @@ height: auto;
   height: 100%;
 }
 
+
 .overlay p {
   color: white;
   font-size: 20px;
@@ -537,17 +538,15 @@ height: auto;
 
 .obrasbody{
 
-  background-color: #F9F3EB;
+  background-color: #1251C1;
 }
-.obrastitulo h1{
-  color: #D86083!important;
-  font-size: 8vw;
-}
+
 .obrastitulo h2{
+margin-left: 3%;
   font-family: 'Twentieth Century W01', Futura, Helvetica, Arial, sans-serif;
-    color: #D86083;
+    color: #F9F3EB;
     font-size: 2vw;   
-    font-style: italic;
+
  }
 
 .slideshow-container {
@@ -557,14 +556,14 @@ height: auto;
 }
 
 .anterior, .siguiente {
-  background-color: #1251C1;
+  background-color: rgba(0, 39, 86, 0.7);
   cursor: pointer;
   position: absolute;
   top: 50%;
   width: auto;
   padding: 16px;
   margin-top: -22px;
-  color: white;
+  color: #F9F3EB;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -618,4 +617,8 @@ height: auto;
 
 @media only screen and (max-width: 300px) {
   .anterior, .siguiente,.text {font-size: 11px}
+}
+
+#obrassliderr{
+  height: auto;
 }
